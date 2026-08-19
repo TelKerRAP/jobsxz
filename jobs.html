@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jobs.css">
+
+    <title>Socios XZ | Xiaraki Zusu</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="scanlines"></div>
+
+
+<!-- =========================================
+     NAVBAR
+========================================= -->
+
+<nav>
+
+    <a href="#inicio" class="active">
+        INICIO
+    </a>
+
+    <a href="#socios">
+        SOCIOS XZ
+    </a>
+
+    <a href="#categorias">
+        CATEGORÍAS
+    </a>
+
+    <a href="#registro">
+        SER SOCIO XZ
+    </a>
+
+</nav>
+
+
+
+<!-- =========================================
+     HERO
+========================================= -->
+
+<section class="hero" id="inicio">
+
+    <div class="hero-content">
+
+        <div class="hero-subtitle">
+            COMUNIDAD • SERVICIOS • TALENTO
+        </div>
+
+        <h1
+            class="glitch"
+            data-text="SOCIOS XZ">
+
+            SOCIOS XZ
+
+        </h1>
+
+        <p class="hero-description">
+
+            Personas, profesionales y negocios que forman parte
+            de la comunidad de <strong>Xiaraki Zusu</strong>.
+
+            Encuentra a alguien que pueda ayudarte con lo que necesitas.
+
+        </p>
+
+
+        <!-- BUSCADOR -->
+
+        <div class="xz-search">
+
+            <div class="search-symbol">
+                ⌕
+            </div>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="¿Qué servicio estás buscando?"
+                autocomplete="off"
+            >
+
+            <button id="searchButton">
+                BUSCAR
+            </button>
+
+        </div>
+
+
+        <div class="search-examples">
+
+            <span>
+                BUSCA:
+            </span>
+
+            <button onclick="searchExample('Albañil')">
+                Albañil
+            </button>
+
+            <button onclick="searchExample('Plomero')">
+                Plomero
+            </button>
+
+            <button onclick="searchExample('Electricista')">
+                Electricista
+            </button>
+
+            <button onclick="searchExample('Diseñador')">
+                Diseñador
+            </button>
+
+            <button onclick="searchExample('Fotógrafo')">
+                Fotógrafo
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     SOCIOS
+========================================= -->
+
+<section class="section" id="socios">
+
+    <div class="section-header">
+
+        <span>
+            DIRECTORIO XZ
+        </span>
+
+        <h2>
+            ENCUENTRA UN SOCIO
+        </h2>
+
+        <p>
+
+            Busca personas y negocios por servicio,
+            profesión, especialidad o nombre.
+
+        </p>
+
+    </div>
+
+
+
+    <!-- =====================================
+         CATEGORÍAS
+    ====================================== -->
+
+    <div class="filters" id="categorias">
+
+        <button
+            class="filter active"
+            data-category="todos">
+
+            TODOS
+
+        </button>
+
+        <button
+            class="filter"
+            data-category="hogar">
+
+            🏠 HOGAR
+
+        </button>
+
+        <button
+            class="filter"
+            data-category="construccion">
+
+            🔨 CONSTRUCCIÓN
+
+        </button>
+
+        <button
+            class="filter"
+            data-category="reparaciones">
+
+            🔧 REPARACIONES
+
+        </button>
+
+        <button
+            class="filter"
+            data-category="tecnologia">
+
+            💻 TECNOLOGÍA
+
+        </button>
+
+        <button
+            class="filter"
+            data-category="diseno">
+
+            🎨 DISEÑO
+
+        </button>
+
+        <button
+            class="filter"
+            data-category="profesionales">
+
+            💼 PROFESIONALES
+
+        </button>
+
+    </div>
+
+
+
+    <!-- RESULTADOS -->
+
+    <div class="results-bar">
+
+        <span id="resultsCount">
+            8 SOCIOS ENCONTRADOS
+        </span>
+
+        <span class="directory-status">
+            ● DIRECTORIO ACTIVO
+        </span>
+
+    </div>
+
+
+
+    <!-- =====================================
+         SOCIOS GRID
+    ====================================== -->
+
+    <div class="xz-grid" id="partnersGrid">
+
+
+
+        <!-- SOCIO 1 -->
+
+        <article
+            class="partner-card"
+            data-category="construccion"
+            data-search="juan carlos albañil construcción remodelación obra acabados">
+
+            <div class="partner-header">
+
+                <span class="verified">
+                    ✓ SOCIO XZ
+                </span>
+
+                <span class="verified-badge">
+                    VERIFICADO
+                </span>
+
+            </div>
+
+
+            <div class="partner-avatar">
+
+                🔨
+
+            </div>
+
+
+            <div class="partner-info">
+
+                <div class="partner-category">
+                    CONSTRUCCIÓN
+                </div>
+
+                <h3>
+                    JUAN CARLOS
+                </h3>
+
+                <div class="partner-service">
+                    ALBAÑILERÍA Y CONSTRUCCIÓN
+                </div>
+
+                <p>
+
+                    Trabajos de albañilería, remodelaciones,
+                    acabados, mantenimiento y obra general.
+
+                </p>
+
+
+                <div class="partner-tags">
+
+                    <span>
+                        ALBAÑILERÍA
+                    </span>
+
+                    <span>
+                        REMODELACIÓN
+                    </span>
+
+                    <span>
+                        ACABADOS
+                    </span>
+
+                </div>
+
+
+                <div class="partner-location">
+                    📍 PUERTO VALLARTA
+                </div>
+
+
+                <a
+                    href="#"
+                    class="contact-button">
+
+                    💬 CONTACTAR
+
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- SOCIO 2 -->
+
+        <article
+            class="partner-card"
+            data-category="reparaciones"
+            data-search="miguel plomero fontanero tuberías fugas instalaciones agua">
+
+            <div class="partner-header">
+
+                <span class="verified">
+                    ✓ SOCIO XZ
+                </span>
+
+                <span class="verified-badge">
+                    VERIFICADO
+                </span>
+
+            </div>
+
+
+            <div class="partner-avatar repair">
+
+                🔧
+
+            </div>
+
+
+            <div class="partner-info">
+
+                <div class="partner-category">
+                    REPARACIONES
+                </div>
+
+                <h3>
+                    MIGUEL
+                </h3>
+
+                <div class="partner-service">
+                    PLOMERÍA
+                </div>
+
+                <p>
+
+                    Instalación y reparación de tuberías,
+                    fugas, baños, bombas y sistemas de agua.
+
+                </p>
+
+
+                <div class="partner-tags">
+
+                    <span>
+                        PLOMERÍA
+                    </span>
+
+                    <span>
+                        FUGAS
+                    </span>
+
+                    <span>
+                        INSTALACIONES
+                    </span>
+
+                </div>
+
+
+                <div class="partner-location">
+                    📍 GUADALAJARA
+                </div>
+
+
+                <a
+                    href="#"
+                    class="contact-button">
+
+                    💬 CONTACTAR
+
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- SOCIO 3 -->
+
+        <article
+            class="partner-card"
+            data-category="reparaciones"
+            data-search="roberto electricista electricidad instalaciones cableado luces">
+
+            <div class="partner-header">
+
+                <span class="verified">
+                    ✓ SOCIO XZ
+                </span>
+
+                <span class="verified-badge">
+                    VERIFICADO
+                </span>
+
+            </div>
+
+
+            <div class="partner-avatar electricity">
+
+                ⚡
+
+            </div>
+
+
+            <div class="partner-info">
+
+                <div class="partner-category">
+                    REPARACIONES
+                </div>
+
+                <h3>
+                    ROBERTO
+                </h3>
+
+                <div class="partner-service">
+                    ELECTRICISTA
+                </div>
+
+                <p>
+
+                    Instalaciones eléctricas, iluminación,
+                    cableado y mantenimiento residencial.
+
+                </p>
+
+
+                <div class="partner-tags">
+
+                    <span>
+                        ELECTRICIDAD
+                    </span>
+
+                    <span>
+                        ILUMINACIÓN
+                    </span>
+
+                </div>
+
+
+                <div class="partner-location">
+                    📍 PUERTO VALLARTA
+                </div>
+
+
+                <a
+                    href="#"
+                    class="contact-button">
+
+                    💬 CONTACTAR
+
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- SOCIO 4 -->
+
+        <article
+            class="partner-card"
+            data-category="diseno"
+            data-search="sofia diseñadora gráfico diseño branding logos redes sociales">
+
+            <div class="partner-header">
+
+                <span class="verified">
+                    ✓ SOCIO XZ
+                </span>
+
+                <span class="verified-badge">
+                    VERIFICADO
+                </span>
+
+            </div>
+
+
+            <div class="partner-avatar design">
+
+                ✦
+
+            </div>
+
+
+            <div class="partner-info">
+
+                <div class="partner-category">
+                    DISEÑO
+                </div>
+
+                <h3>
+                    SOFÍA
+                </h3>
+
+                <div class="partner-service">
+                    DISEÑO GRÁFICO
+                </div>
+
+                <p>
+
+                    Identidad visual, logotipos, contenido
+                    para redes sociales y branding.
+
+                </p>
+
+
+                <div class="partner-tags">
+
+                    <span>
+                        BRANDING
+                    </span>
+
+                    <span>
+                        LOGOTIPOS
+                    </span>
+
+                    <span>
+                        REDES
+                    </span>
+
+                </div>
+
+
+                <div class="partner-location">
+                    📍 REMOTO
+                </div>
+
+
+                <a
+                    href="#"
+                    class="contact-button">
+
+                    💬 CONTACTAR
+
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- SOCIO 5 -->
+
+        <article
+            class="partner-card"
+            data-category="tecnologia"
+            data-search="alex programador desarrollador páginas web sistemas aplicaciones">
+
+            <div class="partner-header">
+
+                <span class="verified">
+                    ✓ SOCIO XZ
+                </span>
+
+                <span class="verified-badge">
+                    VERIFICADO
+                </span>
+
+            </div>
+
+
+            <div class="partner-avatar tech">
+
+                &lt;/&gt;
+
+            </div>
+
+
+            <div class="partner-info">
+
+                <div class="partner-category">
+                    TECNOLOGÍA
+                </div>
+
+                <h3>
+                    ALEX
+                </h3>
+
+                <div class="partner-service">
+                    DESARROLLO WEB
+                </div>
+
+                <p>
+
+                    Desarrollo de páginas web, sistemas,
+                    tiendas online y soluciones digitales.
+
+                </p>
+
+
+                <div class="partner-tags">
+
+                    <span>
+                        WEB
+                    </span>
+
+                    <span>
+                        PROGRAMACIÓN
+                    </span>
+
+                    <span>
+                        SISTEMAS
+                    </span>
+
+                </div>
+
+
+                <div class="partner-location">
+                    📍 REMOTO
+                </div>
+
+
+                <a
+                    href="#"
+                    class="contact-button">
+
+                    💬 CONTACTAR
+
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- SOCIO 6 -->
+
+        <article
+            class="partner-card"
+            data-category="profesionales"
+            data-search="daniela fotografía fotógrafo sesiones eventos bodas productos">
+
+            <div class="partner-header">
+
+                <span class="verified">
+                    ✓ SOCIO XZ
+                </span>
+
+                <span class="verified-badge">
+                    VERIFICADO
+                </span>
+
+            </div>
+
+
+            <div class="partner-avatar photo">
+
+                📸
+
+            </div>
+
+
+            <div class="partner-info">
+
+                <div class="partner-category">
+                    PROFESIONALES
+                </div>
+
+                <h3>
+                    DANIELA
+                </h3>
+
+                <div class="partner-service">
+                    FOTOGRAFÍA
+                </div>
+
+                <p>
+
+                    Fotografía para eventos, sesiones personales,
+                    productos y contenido profesional.
+
+                </p>
+
+
+                <div class="partner-tags">
+
+                    <span>
+                        EVENTOS
+                    </span>
+
+                    <span>
+                        PRODUCTO
+                    </span>
+
+                </div>
+
+
+                <div class="partner-location">
+                    📍 PUERTO VALLARTA
+                </div>
+
+
+                <a
+                    href="#"
+                    class="contact-button">
+
+                    💬 CONTACTAR
+
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- SOCIO 7 -->
+
+        <article
+            class="partner-card"
+            data-category="hogar"
+            data-search="carolina limpieza hogar mantenimiento casas departamentos">
+
+            <div class="partner-header">
+
+                <span class="verified">
+                    ✓ SOCIO XZ
+                </span>
+
+                <span class="verified-badge">
+                    VERIFICADO
+                </span>
+
+            </div>
+
+
+            <div class="partner-avatar home">
+
+                🏠
+
+            </div>
+
+
+            <div class="partner-info">
+
+                <div class="partner-category">
+                    HOGAR
+                </div>
+
+                <h3>
+                    CAROLINA
+                </h3>
+
+                <div class="partner-service">
+                    SERVICIOS PARA EL HOGAR
+                </div>
+
+                <p>
+
+                    Limpieza, mantenimiento y apoyo
+                    para casas y departamentos.
+
+                </p>
+
+
+                <div class="partner-tags">
+
+                    <span>
+                        LIMPIEZA
+                    </span>
+
+                    <span>
+                        HOGAR
+                    </span>
+
+                </div>
+
+
+                <div class="partner-location">
+                    📍 NUEVO VALLARTA
+                </div>
+
+
+                <a
+                    href="#"
+                    class="contact-button">
+
+                    💬 CONTACTAR
+
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- SOCIO 8 -->
+
+        <article
+            class="partner-card"
+            data-category="profesionales"
+            data-search="marco abogado asesoría legal contratos empresas">
+
+            <div class="partner-header">
+
+                <span class="verified">
+                    ✓ SOCIO XZ
+                </span>
+
+                <span class="verified-badge">
+                    VERIFICADO
+                </span>
+
+            </div>
+
+
+            <div class="partner-avatar legal">
+
+                ⚖
+
+            </div>
+
+
+            <div class="partner-info">
+
+                <div class="partner-category">
+                    PROFESIONALES
+                </div>
+
+                <h3>
+                    MARCO
+                </h3>
+
+                <div class="partner-service">
+                    ASESORÍA PROFESIONAL
+                </div>
+
+                <p>
+
+                    Asesoría para negocios, contratos,
+                    trámites y servicios profesionales.
+
+                </p>
+
+
+                <div class="partner-tags">
+
+                    <span>
+                        ASESORÍA
+                    </span>
+
+                    <span>
+                        NEGOCIOS
+                    </span>
+
+                </div>
+
+
+                <div class="partner-location">
+                    📍 GUADALAJARA
+                </div>
+
+
+                <a
+                    href="#"
+                    class="contact-button">
+
+                    💬 CONTACTAR
+
+                </a>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+
+
+    <!-- SIN RESULTADOS -->
+
+    <div
+        id="noResults"
+        class="no-results">
+
+        <div>
+            ⛔
+        </div>
+
+        <h3>
+            NO ENCONTRAMOS ESE SERVICIO
+        </h3>
+
+        <p>
+
+            Intenta con otra búsqueda o explora
+            nuestras categorías.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     REGISTRO
+========================================= -->
+
+<section
+    class="cta"
+    id="registro">
+
+    <div class="cta-label">
+        ¿OFRECES UN SERVICIO?
+    </div>
+
+    <h2>
+        ÚNETE A SOCIOS XZ
+    </h2>
+
+    <p>
+
+        Forma parte del directorio de profesionales,
+        emprendedores y negocios de la comunidad XZ.
+
+    </p>
+
+    <a
+        href="#"
+        class="btn">
+
+        QUIERO SER SOCIO XZ
+
+    </a>
+
+</section>
+
+
+
+<!-- =========================================
+     FOOTER
+========================================= -->
+
+<footer>
+
+    <strong>
+        SOCIOS XZ
+    </strong>
+
+    <br><br>
+
+    Xiaraki Zusu • Comunidad • Talento • Servicios
+
+</footer>
+
+
+
+<!-- =========================================
+     JAVASCRIPT
+========================================= -->
+
+<script>
+
+const searchInput =
+    document.getElementById("searchInput");
+
+const searchButton =
+    document.getElementById("searchButton");
+
+const partnerCards =
+    document.querySelectorAll(".partner-card");
+
+const filters =
+    document.querySelectorAll(".filter");
+
+const resultsCount =
+    document.getElementById("resultsCount");
+
+const noResults =
+    document.getElementById("noResults");
+
+
+let activeCategory = "todos";
+
+
+
+function filterPartners(){
+
+    const search =
+        searchInput.value
+        .toLowerCase()
+        .trim();
+
+
+    let visible = 0;
+
+
+    partnerCards.forEach(card => {
+
+        const text =
+            card.dataset.search.toLowerCase();
+
+        const category =
+            card.dataset.category;
+
+
+        const matchesSearch =
+            text.includes(search);
+
+
+        const matchesCategory =
+            activeCategory === "todos" ||
+            category === activeCategory;
+
+
+        if(
+            matchesSearch &&
+            matchesCategory
+        ){
+
+            card.style.display = "block";
+
+            visible++;
+
+        }else{
+
+            card.style.display = "none";
+
+        }
+
+    });
+
+
+    resultsCount.textContent =
+        `${visible} SOCIO${visible !== 1 ? "S" : ""} ENCONTRADO${visible !== 1 ? "S" : ""}`;
+
+
+    if(visible === 0){
+
+        noResults.classList.add("show");
+
+    }else{
+
+        noResults.classList.remove("show");
+
+    }
+
+}
+
+
+
+searchInput.addEventListener(
+    "input",
+    filterPartners
+);
+
+
+searchButton.addEventListener(
+    "click",
+    filterPartners
+);
+
+
+
+filters.forEach(filter => {
+
+    filter.addEventListener(
+        "click",
+        () => {
+
+            filters.forEach(button => {
+
+                button.classList.remove("active");
+
+            });
+
+
+            filter.classList.add("active");
+
+
+            activeCategory =
+                filter.dataset.category;
+
+
+            filterPartners();
+
+        }
+    );
+
+});
+
+
+
+function searchExample(text){
+
+    searchInput.value = text;
+
+    activeCategory = "todos";
+
+
+    filters.forEach(button => {
+
+        button.classList.remove("active");
+
+    });
+
+
+    document
+        .querySelector('[data-category="todos"]')
+        .classList.add("active");
+
+
+    filterPartners();
+
+
+    document
+        .getElementById("socios")
+        .scrollIntoView({
+            behavior:"smooth"
+        });
+
+}
+
+</script>
+
+
+</body>
+
+</html>
