@@ -10,7 +10,13 @@
         content="width=device-width, initial-scale=1.0"
     >
 
-    <title>Ser Socio XZ | Archivos XZ</title>
+    <title>Ser Socio XZ | Xiaraki Zusu</title>
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <script type="text/javascript">emailjs.init('2EIgyH0EJqWs84pzg')</script>
 
     <link
         rel="stylesheet"
@@ -49,7 +55,7 @@
             INICIO
         </a>
 
-        <a href="jobs.html#socios">
+        <a href="index.html#socios">
             SOCIOS XZ
         </a>
 
@@ -1789,13 +1795,38 @@
             </strong>
 
         </div>
+        <!-- DESCARGAR FORMATO -->
+
+        <a
+            href="XZ.xlsx"
+            download
+            class="download-button">
+
+            <span class="download-icon">
+                ↓
+            </span>
+
+            <span>
+
+                <strong>
+                    DESCARGAR FORMATO DE SOLICITUD
+                </strong>
+
+                <small>
+                    Descarga el formato de Socio XZ
+                </small>
+
+            </span>
+
+        </a>
 
 
         <button
-            type="submit"
-            class="submit-button">
+        type="submit"
+        class="submit-button"
+        disabled>
 
-            ⚡ ENVIAR SOLICITUD
+        ⚡ ENVIAR SOLICITUD
 
         </button>
 
@@ -1963,7 +1994,7 @@ form.addEventListener(
 );
 
 </script>
-
+<script src="app.js"></script>
 
 </body>
 
